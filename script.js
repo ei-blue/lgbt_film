@@ -28,13 +28,13 @@ for (i = 0; i < 50; i++){
 const test = document.getElementById('test');
 
 const movies = {
-  "I care a lot": "lesbian",
-  "Call me":"gay"
+  movie1:"I care a lot"
 }
 
-for (i=0; i<2; i++){
-  console.log(movies[i])
-}
+console.log(movies[0])
+// for (i=0; i<2; i++){
+//   console.log(movies[i])
+// }
 
 for (i = 0; i < 50; i++){
     let div1 = document.createElement('div');
