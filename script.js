@@ -27,6 +27,15 @@ for (i = 0; i < 50; i++){
 // test
 const test = document.getElementById('test');
 
+const movies = {
+  "I care a lot": "lesbian",
+  "Call me":"gay"
+}
+
+for (i=0; i<2; i++){
+  console.log(movies[i])
+}
+
 for (i = 0; i < 50; i++){
     let div1 = document.createElement('div');
     div1.className = 'flip-card';
