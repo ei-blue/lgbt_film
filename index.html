@@ -5,74 +5,11 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<title>LGBTQ+ Film Analysis</title>
-	<meta name="description" content="Scrollama: Sticky Overlay Example" />
+	<!-- <meta name="description" content="Scrollama: Sticky Overlay Example" /> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	
 	<link rel="stylesheet" href="./style.css" />
 	<link rel="stylesheet" href="assets/css/style.css">
-	<style>
-		#scrolly {
-			position: relative;
-			background-color: #f3f3f3;
-			padding: 1rem;
-		}
-
-		article {
-			position: relative;
-			padding: 0;
-			max-width: 20rem;
-			margin: 0 auto;
-		}
-
-		figure {
-			position: -webkit-sticky;
-			position: sticky;
-			left: 0;
-			width: 100%;
-			margin: 0;
-			-webkit-transform: translate3d(0, 0, 0);
-			-moz-transform: translate3d(0, 0, 0);
-			transform: translate3d(0, 0, 0);
-			background-color: #8a8a8a;
-			z-index: 0;
-		}
-
-		figure p {
-			text-align: center;
-			padding: 1rem;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			-moz-transform: translate(-50%, -50%);
-			-webkit-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
-			font-size: 8rem;
-			font-weight: 900;
-			color: #fff;
-		}
-
-		.step {
-			margin: 0 auto 2rem auto;
-			color: #fff;
-			background-color: rgba(0, 0, 0, 0.1);
-		}
-
-		.step:last-child {
-			margin-bottom: 0;
-		}
-
-		.step.is-active p {
-			background-color: goldenrod;
-			color: #3b3b3b;
-		}
-
-		.step p {
-			text-align: center;
-			padding: 1rem;
-			font-size: 1.5rem;
-			background-color: #3b3b3b;
-		}
-	</style>
 </head>
 
 <body>
@@ -83,7 +20,8 @@
 				The portrayal of LGBTQ+ communities in movies
 			</p>
 
-		<section id="page1">
+		<!-- page1 -->
+		<section class="page">
 		<!-- <div class="row text-center"> -->
 			<h1>Representation of LGBTQ+ Community in Movies of the Last Decade</h1>
 			<img class="img" src="./img/people.png"/>
@@ -93,24 +31,27 @@
 			<h5>
 				*Based on the number of IMDb reviews *LGBTQ+ elements are defined as any LGBTQ+ characters or scenes
 			</h5>
-			<div id="panel"></div>
+			<!-- <div id="panel"></div> -->
+			<img class="img" src="./img/group2.png"/>
 		<!-- </div> -->
 		</section> 
 		<!-- end of page1 -->
 
-		<section id="page2">
+		<!-- page2 -->
+		<section class="page">
 		<div class="row text-center">
 			<h1>Now, imagine you are part of the transgender community...</h1>
 			<img class="img" src="./img/person.png"/>
 			<h2>
 				Can you find the movies that include your community as part of the main plot? Hover over the top movie matrix to reveal the answer.
 			</h2>
-			<div id="interactive"></div>
+			<!-- <div id="interactive"></div> -->
 			<div id="test"></div>
 			<br>
 		</div>
 		</section> 
-		<section id="page3">
+		<!-- page3 -->
+		<section class="page">
 			<div class="row text-center">
 				<h1>Did you find it? There's only one.</h1>
 				<h2>
@@ -228,19 +169,20 @@
 </section> <!-- cd-timeline -->
 <!-- end of timeline -->
 
-<section >
+<section class="page">
 	<div class="row text-center">
 		<h1>However, the majority of them only have LGBTQ+ characters that are peripheral...</h1>
 		<img class="img" src="./img/pageperipheral.png"/>
 		<img class="img" src="./img/Frame8.png"/>
 	</div>
 </section> 
-<section >
+<section class="page">
 	<div class="row text-center">
 		<h1>Nonetheless, LGBTQ+ characters are more visible than ever in movies...</h1>
 		<img class="img" src="./img/page40.png"/>
 	</div>
 </section> 
+
 <section >
 	<div class="row text-center">
 		<h1>...but is visibility enough?</h1>
@@ -248,7 +190,7 @@
 	</div>
 </section> 
 
-<section>
+<section class="page">
 	<div class="row text-center"><!-- tableau -->
 		<h1>According to IMDb, in the last decade, about 150–200 movies with LGBTQ+ elements were released every year...</h1>
 		<img class="img" src="./img/pagetableau.png"/>
@@ -256,7 +198,7 @@
 		</div>
 </section>
 
-<section >
+<section class="page">
 	<div class="row text-center">
 		<h1>Even for LGBTQ+ focused movies, the characters and plots can be stereotypical...</h1>
 		<img class="img" src="./img/page49.png"/>
@@ -265,7 +207,7 @@
 
 
 <!-- Sankey -->
-<section>
+<section class="page">
 	<div class="row text-center">
 		<h1>Among the top 50 LGBTQ+ focused movies from 2011–2020...</h1>
 		<iframe width="100%" height="605.03125" frameborder="0"
