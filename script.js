@@ -1,3 +1,21 @@
+// images show up triggered by scrolling
+/* License: https://codyhouse.co/mit */
+document.querySelectorAll(".img").forEach((item) => {
+  gsap.from(
+    item,
+    {
+      y: 10,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: item,
+        start: 'top 75%',
+        toggleActions: "play none none reverse", // onEnter, onLeave, onEnterBack, onLeaveBack,
+      },
+    },
+  );
+});
+
 
 const movies = {"Captain Marvel":"Peripheral",
 "I Care a Lot":"Lesbian","Bohemian Rhapsody":"Gay","A Star Is Born":"Peripheral",
@@ -43,18 +61,3 @@ for (let movie in movies){
 }
 
 
-document.querySelectorAll(".img").forEach((item) => {
-  gsap.from(
-    item,
-    {
-      y: 10,
-      opacity: 0,
-      duration: 1,
-      scrollTrigger: {
-        trigger: item,
-        start: 'top 75%',
-        toggleActions: "play none none reverse", // onEnter, onLeave, onEnterBack, onLeaveBack,
-      },
-    },
-  );
-});

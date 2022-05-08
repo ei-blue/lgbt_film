@@ -8,7 +8,6 @@
 		<!-- <meta name="description" content="Scrollama: Sticky Overlay Example" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<!-- <link rel="stylesheet" href="./style.css" /> -->
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="./style.css" />
 	</head>
@@ -16,28 +15,25 @@
 	<body>
 		<main>
 		<section id="main">
-			<h1 class="intro__hed">Presence vs. representation</h1>
+			<!-- <h1 class="intro__hed">Presence vs. representation</h1>
 			<p class="intro__dek">
 				The portrayal of LGBTQ+ communities in movies
-			</p>
+			</p> -->
 
 			<!-- page1 -->
-			<section class="page">
+			<section id="page1">
 			<!-- <div class="row text-center"> -->
 				<h1>Representation of LGBTQ+ Community in Movies of the Last Decade</h1>
 				<img class="img float" src="./img/people.png"/>
 				<img class="img movie50 float" src="./img/group2.png"/>
 				<div class="box">
-					<h2>
+					<h4>
 						Here are the 50 most popular movies with LGBTQ+ elements on IMDb*, released between 2011 and 2020.
-					</h2>
+					</h4>
 					<h5>
 						*Based on the number of IMDb reviews *LGBTQ+ elements are defined as any LGBTQ+ characters or scenes
 					</h5>		
 				</div>
-				<!-- <div id="panel"></div> -->
-				<!-- <img class="img movie50 float" src="./img/group2.png"/> -->
-			<!-- </div> -->
 			</section> 
 			<!-- end of page1 -->
 
@@ -49,28 +45,29 @@
 				<h2>
 					Can you find the movies that include your community as part of the main plot? Hover over the top movie matrix to reveal the answer.
 				</h2>
-				<!-- <div id="interactive"></div> -->
 				<div id="test"></div>
 				<br>
 			</div>
 			</section> 
+
 			<!-- page3 -->
 			<section class="page">
 				<img class="img under" src="./img/onemovie.png"/>
 				<div class="row text-center over">
 					<h1>Did you find it? There's only one.</h1>
-					<h2>
-						"Dallas Buyers Club" is the only movie that has a significant transgender character among the top 50 movies with LGBTQ+ elements. The character was played by a straight male actor.</h2>
-					<!-- <br> -->
+					<h3>
+						"Dallas Buyers Club" is the only movie that has a significant transgender character among the top 50 movies with LGBTQ+ elements. The character was played by a straight male actor.
+					</h3>
 				</div>
 				</section> 
 			<!-- <section id="outro"></section> -->
 
 		<!-- adding timeline -->
+		<!-- Templates from  CodyHouse License: https://codyhouse.co/mit -->
 		<section class="cd-timeline js-cd-timeline">
-			<p>
-			<h1>Looking at LGBTQ+ representation in the movie history, we are making progress, albeit imperfect...</h1>
-			</p>
+			<!-- <p> -->
+			<h2>Looking at LGBTQ+ representation in the movie history, we are making progress, albeit imperfect...</h2>
+			<!-- </p> -->
 			<div class="container max-width-lg cd-timeline__container">
 			<div class="cd-timeline__block">
 				<div class="cd-timeline__img cd-timeline__img--movie">
@@ -148,7 +145,6 @@
 
 				<div class="flex justify-between items-center">
 					<span class="cd-timeline__date">1999</span>
-					<!-- <a href="#0" class="btn btn--subtle">Read more</a> -->
 				</div>
 				</div> <!-- cd-timeline__content -->
 			</div> <!-- cd-timeline__block -->
@@ -195,13 +191,13 @@
 		</section> 
 
 		<section class="page">
-			<div class="row text-center"><!-- tableau -->
+			<div class="row text-center">
 				<h1>According to IMDb, in the last decade, about 150–200 movies with LGBTQ+ elements were released every year...</h1>
-				<!-- <img class="img" src="./img/pagetableau.png"/> -->
 			</div>
 		</section>
 	</section>
-		
+	
+	<!-- tableau -->
 	<div id="tableau">
 		<div class='tableauPlaceholder' id='viz1651871957485' style='position: relative'><noscript><a href='#'><img alt='Release Trends of Movies with LGBTQ+ Elements (2011–2020)Overall release trend of movies with at least one LGBTQ+ character or scene and release trends of movies with selective LGBTQ+ plot keywords (“Lesbian”, “Gay”, “Bisexual”, “Transgender”). ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReleaseTrendsofMovieswithLGBTQElements20112020&#47;Hypotheses12&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ReleaseTrendsofMovieswithLGBTQElements20112020&#47;Hypotheses12' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Re&#47;ReleaseTrendsofMovieswithLGBTQElements20112020&#47;Hypotheses12&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
 		<script type='text/javascript'>var divElement = document.getElementById('viz1651871957485');
@@ -234,83 +230,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
 
-		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
 		<script src="assets/js/main.js"></script>
-		<!-- <script type="text/javascript" src="./timeline.js"></script> -->
-		<!-- <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script> -->
-		<!-- <script src="../scrollama.min.js"></script> -->
 		<script src="./script.js"></script>
 			
-
-		<!-- <script>
-			// using d3 for convenience
-			var main = d3.select("main");
-			var scrolly = main.select("#scrolly");
-			var figure = scrolly.select("figure");
-			var article = scrolly.select("article");
-			var step = article.selectAll(".step");
-
-			// initialize the scrollama
-			var scroller = scrollama();
-
-			// generic window resize listener event
-			function handleResize() {
-				// 1. update height of step elements
-				var stepH = Math.floor(window.innerHeight * 0.75);
-				step.style("height", stepH + "px");
-
-				var figureHeight = window.innerHeight / 2;
-				var figureMarginTop = (window.innerHeight - figureHeight) / 2;
-
-				figure
-					.style("height", figureHeight + "px")
-					.style("top", figureMarginTop + "px");
-
-				// 3. tell scrollama to update new element dimensions
-				scroller.resize();
-			}
-
-			// scrollama event handlers
-			function handleStepEnter(response) {
-				console.log(response);
-				// response = { element, direction, index }
-
-				// add color to current step only
-				step.classed("is-active", function (d, i) {
-					return i === response.index;
-				});
-
-				// update graphic based on step
-				figure.select("p").text(response.index + 1);
-			}
-
-			function setupStickyfill() {
-				d3.selectAll(".sticky").each(function () {
-					Stickyfill.add(this);
-				});
-			}
-
-			function init() {
-				setupStickyfill();
-
-				// 1. force a resize on load to ensure proper dimensions are sent to scrollama
-				handleResize();
-
-				// 2. setup the scroller passing options
-				// 		this will also initialize trigger observations
-				// 3. bind scrollama event handlers (this can be chained like below)
-				scroller
-					.setup({
-						step: "#scrolly article .step",
-						offset: 0.33,
-						debug: false
-					})
-					.onStepEnter(handleStepEnter);
-			}
-
-			// kick things off
-			init();
-		</script> -->
 	</body>
 
 	<footer>
