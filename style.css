@@ -9,9 +9,10 @@ body {
 } */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  min-height: 1280px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+  /* min-height: 1280px; */
   color: #3b3b3b;
   font-size: 24px;
 }
@@ -34,7 +35,13 @@ a:hover {
   border-bottom: 2px solid currentColor;
 }
 
-/* this is the reason why there is margin */
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  margin:5rem 0;
+}
+
 #main {
   max-width: 80%;
   margin: 0rem auto;
@@ -77,7 +84,7 @@ a:hover {
 .card-container {
   /* perspective: 700px; */
   /* max-width: 100%; */
-  width: 60px;
+  width: 80px;
   height: 85px;
 }
 .card-flip {
@@ -139,6 +146,10 @@ h3 {
 
 .float {
   float:right;
+}
+
+.page2{
+  clear:both;
 }
 
 .movie50 {
@@ -214,7 +225,7 @@ h3 {
   }
 }
 
-/* addd */
+/* add */
 
 #test {
   overflow: hidden;
@@ -257,7 +268,6 @@ h3 {
   transform: rotateY( 180deg ) ;
 }
 
-/* newer  TEST TEST TEST*/
 .flip-card {
   background-color: transparent;
   width: 80px;
@@ -300,14 +310,7 @@ h3 {
   
 }
 
-/* .flip-card-front { */
-  /* background-color: #bbb; */
-  /* color: black; */
-/* } */
-
 .flip-card-back {
-  /* background-color: #2980b9;
-  color: white; */
   /* line-height: 60px; */
   line-height: 80px;
   transform: rotateY(180deg);
@@ -325,18 +328,8 @@ h3 {
 .Transgender {
   background-color: #F7AAB8;
 }
+
 .Peripheral {
   background-color: #8a8a8a;
 }
 
-.special {
-  float:left;
-  margin:0;
-  padding:0;
-  position: left;
-  /* position: absolute; */
-  /* max-width: 95%; */
-  /* overflow: scroll; */
-  background-color: #63CDF6;
-  overflow:hidden;
-}

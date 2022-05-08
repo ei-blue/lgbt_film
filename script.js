@@ -42,6 +42,9 @@ for (let movie in movies){
   div3b.className = 'flip-card-back'
   div3b.classList.add(movies[movie])
   div3b.innerHTML = movies[movie]
+  if (movies[movie] === "Transgender") {
+    div3b.addEventListener("mouseover", function(e){alert("You found it!")}, false);
+  }
   // childDiv.innerHTML = i
   div2.appendChild(div3a)
   div2.appendChild(div3b)
