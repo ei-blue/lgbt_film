@@ -5,7 +5,7 @@
 /* html,
 body {
   margin: 0;
-  padding: 0;
+  padding: 0; 
 } */
 
 body {
@@ -34,11 +34,16 @@ a:hover {
   border-bottom: 2px solid currentColor;
 }
 
-#intro {
-  /* max-width: 40rem; */
+/* this is the reason why there is margin */
+#main {
   max-width: 80%;
-  margin: 1rem auto;
+  margin: 0rem auto;
   text-align: center;
+}
+
+#tableau {
+  max-width: 80%;
+  margin: 0 5rem;
 }
 
 .intro__hed {
@@ -129,6 +134,19 @@ h3 {
 .img {
   max-width: 50%;
   max-height: 50%;
+  /* float:right; */
+}
+
+.float {
+  float:right;
+}
+
+.movie50 {
+  /* margin-bottom: 5rem; */
+  margin:2rem;
+  max-width: 70%;
+  max-height: 70%;
+  /* float:left; */
 }
 
 .page {
@@ -136,6 +154,22 @@ h3 {
   /* padding: 90px; */
   /* background-color: #63CDF6; */
 }
+
+.box {
+  max-width: 40%;
+  margin-top: 5rem;
+}
+
+.under {
+  position: relative;
+}
+
+.over {
+  position: relative;
+  top:-10rem;
+}
+
+
 
 /* add */
 @keyframes octocat-wave {
@@ -181,14 +215,13 @@ h3 {
 }
 
 /* addd */
-#panel {
-  /* width: 310px; */
-  /* height: 340px; */
-  overflow: hidden;
-}
 
 #test {
   overflow: hidden;
+  /* min-width: 900;
+  max-width: 989px; */
+  width: 900px;
+  margin:auto;
 }
 .card {
   width: 80px;
@@ -294,4 +327,16 @@ h3 {
 }
 .Peripheral {
   background-color: #8a8a8a;
+}
+
+.special {
+  float:left;
+  margin:0;
+  padding:0;
+  position: left;
+  /* position: absolute; */
+  /* max-width: 95%; */
+  /* overflow: scroll; */
+  background-color: #63CDF6;
+  overflow:hidden;
 }
