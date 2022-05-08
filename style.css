@@ -49,11 +49,10 @@ footer {
   text-align: center;
 }
 
-#tableau {
+/* #tableau {
   max-width: 80%;
   margin:auto;
-  /* margin: 0 5rem; */
-}
+} */
 
 .intro__hed {
   font-size: 2em;
