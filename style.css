@@ -15,6 +15,7 @@ body {
   /* min-height: 1280px; */
   color: #3b3b3b;
   /* font-size: 24px; */
+  max-width: 1980px;
 }
 
 p,
