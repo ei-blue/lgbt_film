@@ -1,3 +1,4 @@
+
 const movies = {"Captain Marvel":"Peripheral",
 "I Care a Lot":"Lesbian","Bohemian Rhapsody":"Gay","A Star Is Born":"Peripheral",
 "Solo: A Star Wars Story":"Peripheral","Bird Box":"Peripheral","Birds of Prey":"Bisexual",
@@ -13,17 +14,6 @@ const movies = {"Captain Marvel":"Peripheral",
 "The Mule":"Peripheral","The World's End":"Peripheral","The Neon Demon":"Peripheral","Sausage Party":"Peripheral",
 "A Million Ways to Die in the West":"Peripheral","Happy Death Day":"Peripheral","Power Rangers":"Peripheral",
 "The Invitation":"Peripheral","Love, Simon":"Gay","Dallas Buyers Club":"Transgender","Bombshell":"Lesbian"}
-
-// const panel = document.getElementById('panel');
-
-// div
-// for (i = 0; i < 50; i++){
-//     let div = document.createElement('div');
-//     div.className = 'card';
-//     div.innerHTML = '';
-//     panel.appendChild(div);
-// }
-
 
 // test
 const test = document.getElementById('test');
@@ -52,3 +42,19 @@ for (let movie in movies){
   test.appendChild(div1);
 }
 
+
+document.querySelectorAll(".img").forEach((item) => {
+  gsap.from(
+    item,
+    {
+      y: 10,
+      opacity: 0,
+      duration: 1,
+      scrollTrigger: {
+        trigger: item,
+        start: 'top 75%',
+        toggleActions: "play none none reverse", // onEnter, onLeave, onEnterBack, onLeaveBack,
+      },
+    },
+  );
+});
