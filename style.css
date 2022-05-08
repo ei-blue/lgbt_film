@@ -51,7 +51,8 @@ footer {
 
 #tableau {
   max-width: 80%;
-  margin: 0 5rem;
+  margin:auto;
+  /* margin: 0 5rem; */
 }
 
 .intro__hed {
