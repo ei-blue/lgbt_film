@@ -80,7 +80,33 @@ footer {
   max-width: 40%;
   margin-top: 5rem;
   float:left;
+  text-align: left;
 }
+
+
+.wrap {
+  /* width: 50vw; */
+  /* height: 200px; */
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10rem;
+  }
+  .images {
+  max-width: 80%;
+  height: 100%;
+  /* background-color: #FCB632; */
+  margin: 0 auto;
+  }
+  .title {
+  /* font-size: 30px; */
+  /* font-weight: bold; */
+  /* color: blue; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+
 
 .page2{
   clear:both;
