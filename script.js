@@ -1,6 +1,6 @@
 // images show up triggered by scrolling
 /* License: https://codyhouse.co/mit */
-document.querySelectorAll(".img").forEach((item) => {
+document.querySelectorAll(".move").forEach((item) => {
   gsap.from(
     item,
     {

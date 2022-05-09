@@ -210,3 +210,20 @@ footer {
     margin:auto;
   }
 }
+
+.opinion {
+  display: flex;
+}
+
+.person {
+  max-width:30%;
+}
+
+.comment{
+  margin-top: 3rem;
+  background-color:#dbdbdb;
+  padding:1rem;
+  margin: auto;
+  width: 70%;
+  text-align: left;
+}
