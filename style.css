@@ -262,3 +262,7 @@ footer {
   width: 70%;
   text-align: left;
 }
+
+.cd-timeline__img--movie {
+  background-color: #C4C4C4;
+}
