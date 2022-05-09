@@ -12,6 +12,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   color: #3b3b3b;
   max-width: 1980px;
+  min-width: 600px;
 }
 
 p,
@@ -71,6 +72,14 @@ footer {
 
 .float {
   float:right;
+  max-width: 60%;
+  margin-top: 3rem;;
+}
+
+.box {
+  max-width: 40%;
+  margin-top: 5rem;
+  float:left;
 }
 
 .page2{
@@ -91,10 +100,6 @@ footer {
   /* background-color: #63CDF6; */
 }
 
-.box {
-  max-width: 40%;
-  margin-top: 5rem;
-}
 
 .under {
   position: relative;
@@ -215,10 +220,14 @@ footer {
   display: flex;
 }
 
-.person {
+/* .person {
   max-width:30%;
-}
-
+  max-height:none;
+} */
+/* .img {
+  max-width: 50%;
+  max-height: 300px;
+} */
 .comment{
   margin-top: 3rem;
   background-color:#dbdbdb;
