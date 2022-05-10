@@ -74,14 +74,20 @@ footer {
 .float {
   float:right;
   max-width: 60%;
-  margin-top: 3rem;;
+  margin-top: 10rem;
+  /* background-color: #f1efef; */
+  background-color: #f1efef;
+  padding: 1%;
 }
 
 .box {
   max-width: 40%;
-  margin-top: 5rem;
+  margin-top: 11rem; /*5rem*/
   float:left;
   text-align: left;
+  /* background-color: #f1efef; */
+  background-color: #f1efef;
+  padding: 3%;
 }
 
 
@@ -123,8 +129,10 @@ footer {
 
 .page {
   margin:10rem 0;
-  /* padding: 90px; */
-  /* background-color: #63CDF6; */
+  padding: 20px;
+  /* 20px */
+  background-color: #f1efef;
+  /* background-color: #F7AAB8; */
 }
 
 
@@ -242,6 +250,7 @@ footer {
 #page1 {
   margin-top: 3rem;
   margin-bottom: 10rem;
+  /* background-color:#F7AAB8 */
 }
 
 /* mobile */
@@ -277,4 +286,21 @@ footer {
 
 .cd-timeline__img--movie {
   background-color: #C4C4C4;
+}
+
+#timelinebg {
+  background-color: #f1efef;
+}
+
+.container::before{
+  background-color: #C4C4C4;
+}
+
+.cd-timeline__content {
+  box-shadow:0 3px 0 rgb(196, 196, 196);
+}
+
+.aaa {
+  top:-50rem;
+  background-color:aqua;
 }
