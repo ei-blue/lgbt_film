@@ -307,3 +307,7 @@ footer {
   top:-50rem;
   background-color:aqua;
 }
+
+.nobg {
+  background-color: white;
+}
