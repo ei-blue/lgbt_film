@@ -9,7 +9,7 @@ body {
 } */
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   color: #3b3b3b;
   /* max-width: 1980px; */
   min-width: 600px;
@@ -52,7 +52,7 @@ footer {
 }
 
 #timeline h2, #timeline p{
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   /* max-width: 80%; */
 }
 
