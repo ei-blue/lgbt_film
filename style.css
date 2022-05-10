@@ -75,18 +75,14 @@ footer {
   float:right;
   max-width: 60%;
   margin-top: 5rem;
-  /* background-color: #f1efef; */
-  /* background-color: #f1efef; */
   padding: 1%;
 }
 
 .box {
   max-width: 40%;
-  margin-top: 5rem; /*5rem*/
+  margin-top: 5rem; 
   float:left;
   text-align: left;
-  /* background-color: #f1efef; */
-  /* background-color: #f1efef; */
   padding: 3%;
 }
 
@@ -131,13 +127,13 @@ footer {
   margin:10rem 0;
   padding: 20px;
   /* 20px */
-  background-color: #f1efef;
-  /* background-color: #F7AAB8; */
+  background-color: #f9f8f8;
+  /* background-color: #f1efef; */
 }
 
 #idpage2 {
   margin:5rem 0;
-  background-color: #f1efef;
+  background-color: #f9f8f8;
 }
 
 .under {
@@ -292,7 +288,7 @@ footer {
 }
 
 #timelinebg {
-  background-color: #f1efef;
+  background-color: #f9f8f8;
 }
 
 .container::before{
@@ -310,4 +306,15 @@ footer {
 
 .nobg {
   background-color: white;
+}
+
+.main-title {
+  margin-top: 5rem;
+  /* padding-top: 5rem; */
+  /* font-weight:bold */
+  /* background-color: #F7AAB8; */
+}
+
+.main-title h1 {
+  font-weight: bold;
 }
