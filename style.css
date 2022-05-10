@@ -22,7 +22,8 @@ h3,
 h4,
 a {
   margin: 0;
-  font-weight: 400;
+  /* font-weight: 400; */
+  /* font-weight: 300; */
 }
 
 a,
@@ -299,10 +300,10 @@ footer {
   box-shadow:0 3px 0 rgb(196, 196, 196);
 }
 
-.aaa {
+/* .aaa {
   top:-50rem;
   background-color:aqua;
-}
+} */
 
 .nobg {
   background-color: white;
