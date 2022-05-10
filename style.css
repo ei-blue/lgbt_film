@@ -74,19 +74,19 @@ footer {
 .float {
   float:right;
   max-width: 60%;
-  margin-top: 10rem;
+  margin-top: 5rem;
   /* background-color: #f1efef; */
-  background-color: #f1efef;
+  /* background-color: #f1efef; */
   padding: 1%;
 }
 
 .box {
   max-width: 40%;
-  margin-top: 11rem; /*5rem*/
+  margin-top: 5rem; /*5rem*/
   float:left;
   text-align: left;
   /* background-color: #f1efef; */
-  background-color: #f1efef;
+  /* background-color: #f1efef; */
   padding: 3%;
 }
 
@@ -135,6 +135,10 @@ footer {
   /* background-color: #F7AAB8; */
 }
 
+#idpage2 {
+  margin:5rem 0;
+  background-color: #f1efef;
+}
 
 .under {
   position: relative;
@@ -247,10 +251,9 @@ footer {
   /* background-color: #8a8a8a; */
 }
 
-#page1 {
+#page-first {
   margin-top: 3rem;
-  margin-bottom: 10rem;
-  /* background-color:#F7AAB8 */
+  /* margin-bottom: 10rem; */
 }
 
 /* mobile */
