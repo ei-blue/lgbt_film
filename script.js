@@ -44,16 +44,30 @@ for (let movie in movies){
   div2.className = 'flip-card-inner'
   let div3a = document.createElement("div")
   div3a.className = 'flip-card-front'
-  div3a.innerHTML = movie
-  // div3a.innerHTML += i
+  let div3textFront = document.createElement("div")
+  div3textFront.className = 'text'
+  div3textFront.innerHTML = movie
+
   let div3b = document.createElement("div")
   div3b.className = 'flip-card-back'
-  div3b.classList.add(movies[movie])
-  div3b.innerHTML = movies[movie]
+
+  let div3textBack = document.createElement("div")
+  div3textBack.className = 'text'
+
+  if (movies[movie] === "Peripheral") {
+    div3b.classList.add("Peripheral")
+    div3textBack.innerHTML = "Non-LGBTQ+ focused"
+  } else {
+    div3b.classList.add(movies[movie])
+    div3textBack.innerHTML = movies[movie]
+  }
+
   if (movies[movie] === "Transgender") {
     div3b.addEventListener("mouseover", function(e){alert("You found it!")}, false);
   }
-  // childDiv.innerHTML = i
+  
+  div3a.appendChild(div3textFront)
+  div3b.appendChild(div3textBack)
   div2.appendChild(div3a)
   div2.appendChild(div3b)
   div1.appendChild(div2)
