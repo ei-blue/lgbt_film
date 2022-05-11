@@ -80,10 +80,10 @@ footer {
 }
 
 .box {
-  max-width: 40%;
+  max-width: 60%;
   margin-top: 5rem; 
-  float:left;
-  text-align: left;
+  /* float:left; */
+  text-align: center;
   padding: 3%;
 }
 
