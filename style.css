@@ -1,0 +1,327 @@
+* {
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  margin: 0;
+  padding: 0; 
+} */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  color: #3b3b3b;
+  /* max-width: 1980px; */
+  min-width: 600px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+a {
+  margin: 0;
+  /* font-weight: 400; */
+  /* font-weight: 300; */
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+h3, h5 { font-weight: bold; }
+
+a,
+a:visited,
+a:hover {
+  color: teal;
+  text-decoration: none;
+  border-bottom: 2px solid currentColor;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  margin:5rem 0;
+}
+
+#main {
+  max-width: 80%;
+  margin: 0rem auto;
+  text-align: center;
+}
+
+#timeline{
+  max-width: 80%;
+  margin: 0rem auto;
+}
+
+#timeline h3, #timeline p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  /* max-width: 80%; */
+}
+
+#head{
+  text-align: center;
+}
+
+.img {
+  max-width: 50%;
+  /* max-height: 1%; */
+  /* max-height: 300px; */
+}
+
+.original{
+  max-width: 100%;
+  max-height: 1900px;
+}
+
+.float {
+  float:right;
+  max-width: 60%;
+  margin-top: 5rem;
+  padding: 1%;
+}
+
+.box {
+  max-width: 70%;
+  margin: auto; 
+  /* float:left; */
+  text-align: center;
+  padding: 3%;
+}
+
+
+.wrap {
+  /* width: 50vw; */
+  /* height: 200px; */
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10rem;
+  }
+  .images {
+  max-width: 80%;
+  height: 100%;
+  /* background-color: #FCB632; */
+  margin: 0 auto;
+  }
+  .title {
+  /* font-size: 30px; */
+  /* font-weight: bold; */
+  /* color: blue; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+
+
+.page2{
+  clear:both;
+}
+
+.movie50 {
+  /* margin-bottom: 5rem; */
+  margin:2rem;
+  max-width: 70%;
+  max-height: 70%;
+  /* float:left; */
+}
+
+.page {
+  margin:10rem 0;
+  padding: 20px;
+  /* 20px */
+  background-color: #f9f8f8;
+  /* background-color: #f1efef; */
+}
+
+#idpage2 {
+  margin:5rem 0;
+  background-color: #f9f8f8;
+}
+
+.under {
+  position: relative;
+}
+
+.over {
+  position: relative;
+  top:-14rem;
+}
+
+
+/* add */
+
+#test {
+  overflow: hidden;
+  /* min-width: 900;
+  max-width: 989px; */
+  width: 900px;
+  margin:auto;
+}
+
+/*  */
+.container1 {
+  width: 80px ;
+  height: 80px ;
+  line-height: 80px ;
+  text-align: center ;
+}
+
+.target {
+  transition: .5s ;
+  transform: rotateY( 0deg ) ;
+}
+
+.container1:hover .target {
+  transform: rotateY( 180deg ) ;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+  perspective: 100px;
+  margin: 5px 5px;
+  float: left;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 1px solid silver;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: gray 2px 2px;
+  background-color: #C4C4C4;
+ 
+
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  /* line-height: 85px; */
+  line-height: 20px;
+  font-size: 0.8rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: #C4C4C4;
+  display: table;
+  /* top: 50%;
+  margin-top: -2.0em; */
+  /* text-align: center; */
+}
+
+.flip-card-back {
+  /* line-height: 80px; */
+  transform: rotateY(180deg);
+}
+
+.text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.Lesbian {
+  background-color: #e32026a4;
+}
+.Gay {
+  background-color: #f78c20b9;
+}
+.Bisexual {
+  background-color: #63ccf6b4;
+}
+.Transgender {
+  background-color: #F7AAB8;
+}
+
+.Peripheral {
+  background-color: #adacac;
+  /* background-color: #8a8a8a; */
+}
+
+#page-first {
+  margin-top: 3rem;
+  /* margin-bottom: 10rem; */
+}
+
+/* mobile */
+@media only screen and (max-width:480px){
+  #main {
+    min-width: 80%;
+    /* max-width: 1000px; */
+    display:block;
+    margin:auto;
+  }
+}
+
+.opinion {
+  display: flex;
+}
+
+.person {
+  max-width:20%;
+  /* max-height:none; */
+}
+/* .img {
+  max-width: 50%;
+  max-height: 300px;
+} */
+.comment{
+  margin-top: 3rem;
+  background-color:#dbdbdb;
+  padding:1rem;
+  margin: auto;
+  width: 70%;
+  text-align: left;
+}
+
+.cd-timeline__img--movie {
+  background-color: #C4C4C4;
+}
+
+#timelinebg {
+  background-color: #f9f8f8;
+}
+
+.container::before{
+  background-color: #C4C4C4;
+}
+
+.cd-timeline__content {
+  box-shadow:0 3px 0 rgb(196, 196, 196);
+}
+
+/* .aaa {
+  top:-50rem;
+  background-color:aqua;
+} */
+
+.nobg {
+  background-color: white;
+}
+
+.main-title {
+  margin-top: 5rem;
+  /* padding-top: 5rem; */
+  /* font-weight:bold */
+  /* background-color: #F7AAB8; */
+}
+
+.main-title h1 {
+  font-weight: bold;
+}
