@@ -26,6 +26,8 @@ a {
   /* font-weight: 300; */
 }
 
+h3, h5 { font-weight: bold; }
+
 a,
 a:visited,
 a:hover {
@@ -52,7 +54,7 @@ footer {
   margin: 0rem auto;
 }
 
-#timeline h2, #timeline p{
+#timeline h3, #timeline p{
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
   /* max-width: 80%; */
 }
@@ -80,8 +82,8 @@ footer {
 }
 
 .box {
-  max-width: 60%;
-  margin-top: 5rem; 
+  max-width: 70%;
+  margin: auto; 
   /* float:left; */
   text-align: center;
   padding: 3%;
